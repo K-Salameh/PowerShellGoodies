@@ -21,7 +21,7 @@ Write-Host '
 | | | |/ /| |_| | | |  __/   | | (_) | (_) | |
 \_| |_/___|\__,_|_|  \___|   \_/\___/ \___/|_|
                                               
-' -ForegroundColor Green
+' -ForegroundColor Green #ASCII ART, Generate yours from "http://patorjk.com/software/taag"
 Write-Host "Virtual Machine Webhook Trigger Tool - By $YourName" -ForegroundColor 'Yellow'
 Write-Host ''
 Write-Host "This tool will check if the $VMName is up or not and based on that ask you to turn it ON or OFF" -ForegroundColor Yellow
