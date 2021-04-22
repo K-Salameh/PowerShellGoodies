@@ -1,6 +1,6 @@
 ## A Quick Script Useful for Updating Git on Machines that already have Git Installed
 ## Tested on Intune and Works Nicely, useful for updating computers quickly to the latest version of Git using Intune Scripting
-## Some scripts where copied from other authors and has been credited where credit is due
+## It is worth noting that this works only with 64 Bit Windows / Git Edition
 ## You can replace git with other apps if you like, but tweaking across the script will be required
 
 If ((Test-Path 'HKLM:\SOFTWARE\GitForWindows') -Like 'False')
